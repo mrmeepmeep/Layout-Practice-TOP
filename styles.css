@@ -1,0 +1,144 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    max-width: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+ul {
+    display: flex;
+    gap:16px;
+    list-style: none;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;  
+    padding: 150px;  
+}
+.content {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+}
+
+.img-card {
+width: 65px;
+}
+
+.img-intro {
+    width: 200px;
+    height: auto;
+}
+
+.cards {
+    width: 250px;  
+    height: auto;
+    font-size: 18px;
+}
+
+.intro-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.intro-subtext{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.btn-intro {
+    color: whitesmoke;
+    background-color: #3882F6;
+    padding: 5px;
+    border: 2px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.container-hero {
+    background-color: #E5E7Eb;
+    padding: 150px;
+}
+.quote-text {
+    font-size: 26px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-name {
+    display: flex;
+    justify-content: end;
+    font-style: oblique;
+}
+
+.container-last {
+    padding: 100px;
+}
+
+.container-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 10px 20px 5px 40px;
+    border-radius: 8px;
+
+}
+
+.btn-action {
+    border-color: antiquewhite;
+    border: 2px;
+    border-style: solid;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: #E5E7Eb;
+    padding: 5px 10px 5px 10px;
+
+
+}
+
+
+.action-text {
+color: #E5E7Eb;
+font-size: 20px;
+}
+
+.action-subtext {
+font-size: 15px;
+color: #cecfd2;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7Eb;
+    padding: 20px;
+}
